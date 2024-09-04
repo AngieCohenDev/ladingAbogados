@@ -58,25 +58,25 @@ const HomeFeature: FC = () => {
                 }}
               >
                 <Typography variant="h5" sx={{ mb: 1 }}>
-                  Lorem ipsum dolor
+                  Efectividad
                 </Typography>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    UI/UI Design
+                    Derecho laboral
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={65} order={1} />
+                  <BorderLinearProgress variant="determinate" color="inherit" value={85} order={1} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    Mobile Development
+                    Civil
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={40} order={2} />
+                  <BorderLinearProgress variant="determinate" color="inherit" value={70} order={2} />
                 </Box>
                 <Box sx={{ mb: 2 }}>
                   <Typography variant="subtitle1" color="text.secondary">
-                    Web Development
+                    Familiar
                   </Typography>
-                  <BorderLinearProgress variant="determinate" color="inherit" value={50} order={3} />
+                  <BorderLinearProgress variant="determinate" color="inherit" value={91} order={3} />
                 </Box>
               </Box>
 
@@ -103,9 +103,9 @@ const HomeFeature: FC = () => {
                     flexDirection: 'column',
                   }}
                 >
-                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Lorem ipsum</Typography>
+                  <Typography sx={{ fontWeight: 600, lineHeight: 1 }}>Nuestros clientes</Typography>
                   <Typography variant="subtitle1" sx={{ mb: 1, color: 'text.disabled' }}>
-                    Lorem ipsum
+                    nos recomiendan
                   </Typography>
                   <Box
                     sx={{
@@ -118,7 +118,7 @@ const HomeFeature: FC = () => {
                     }}
                   >
                     <Typography variant="h4" sx={{ color: '#32dc88' }}>
-                      75%
+                      95%
                     </Typography>
                     <CircularProgress
                       sx={{ position: 'absolute', color: 'divider' }}
@@ -131,7 +131,7 @@ const HomeFeature: FC = () => {
                       disableShrink
                       thickness={2}
                       variant="determinate"
-                      value={75}
+                      value={95}
                       size={85}
                       sx={{ transform: 'rotate(96deg) !important', color: '#32dc88', position: 'absolute' }}
                     />
@@ -153,7 +153,7 @@ const HomeFeature: FC = () => {
                 fontWeight: 'bold',
               }}
             >
-              Make your{' '}
+              Conoce {' '}
               <Typography
                 component="mark"
                 sx={{
@@ -164,7 +164,7 @@ const HomeFeature: FC = () => {
                   backgroundColor: 'unset',
                 }}
               >
-                Learning <br />
+                de abogados 
                 <Box
                   sx={{
                     position: 'absolute',
@@ -178,12 +178,11 @@ const HomeFeature: FC = () => {
                   <img src="/images/headline-curve.svg" alt="Headline curve" />
                 </Box>
               </Typography>
-              Enjoyable
+              especializados
             </Typography>
 
             <Typography sx={{ color: 'text.secondary', mb: 2, ml: { xs: 0, md: 4 } }}>
-              Set the way of learning according to your wishes with some of the benefits that you get us, so you on
-              enjoy the lessons that we provide.
+            Con años de experiencia en diversas áreas del derecho, nos comprometemos a defender y proteger los derechos de nuestros clientes con integridad y profesionalismo
             </Typography>
 
             <Grid container spacing={2} sx={{ ml: { xs: 0, md: 2 } }}>

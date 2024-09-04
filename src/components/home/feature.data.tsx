@@ -12,23 +12,23 @@ interface Data {
 
 export const data: Data[] = [
   {
-    title: 'Easy Accessable',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Experiencia Comprobada',
+    description: 'Contamos con un equipo de abogados altamente capacitados y con años de experiencia en diversas áreas del derecho',
     icon: <ArtTrackIcon />,
   },
   {
-    title: 'More Affordable Cost',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Atención Personalizada',
+    description: 'Cada cliente es único, por eso ofrecemos un enfoque individualizado para entender y resolver sus necesidades legales específicas',
     icon: <AttachMoneyIcon />,
   },
   {
-    title: 'Flexible Study Time',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Compromiso y Transparencia',
+    description: 'Nos comprometemos a mantener una comunicación clara y honesta durante todo el proceso',
     icon: <LocalLibraryIcon />,
   },
   {
-    title: 'Consultation With Mentor',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Resultados Sólidos',
+    description: 'Nos enfocamos en obtener los mejores resultados posibles para nuestros clientes, ya sea a través de una resolución amistosa, una negociación exitosa, o una defensa vigorosa en tribunales.',
     icon: <ContactSupportIcon />,
   },
 ]
